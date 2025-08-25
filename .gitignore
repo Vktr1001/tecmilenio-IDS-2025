@@ -19,3 +19,8 @@ venv/
 
 # tests
 .pytest_cache/
+
+# --- Ignorar caches locales y dependencias ---
+**/.npm-cache/
+**/node_modules/
+EOF
